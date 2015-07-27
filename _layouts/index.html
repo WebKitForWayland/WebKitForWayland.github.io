@@ -1,8 +1,4 @@
-<html>
-<head>
-	<title>{{ page.project }}</title>
-</head>
-<body>
+{% include header.html %}
 
 <p>{{ page.project }} is a Web runtime/environment base, leveraging <a href="https://www.webkit.org">WebKit</a> for Web content handling and <a href="http://wayland.freedesktop.org">Wayland</a> for display management.</p>
 
@@ -10,5 +6,4 @@
 
 <p>More about the project (ideas behind it, goals for the future, and initial supported hardware) soon.</p>
 
-</body>
-</html>
+{% include footer.html %}
