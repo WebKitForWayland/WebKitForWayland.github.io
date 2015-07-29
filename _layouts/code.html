@@ -1,34 +1,38 @@
 {% include header.html %}
 
-<p>All the code is currently kept <a href="{{ page.github_project }}">on GitHub</a>.<br/>
-There's a bunch of repositories included in the project:</p>
+	<div class="container theme-showcase" role="main">
 
-<p><a href="{{ page.github_project }}/webkit"><b>WebKit</b></a><br/>
-Contains the new WebKit port that's used in WebKit for Wayland, implemented under the three-letter codename 'WPE'.
-</p>
+		<p>All the code is currently kept <a href="{{ page.github_project }}">on GitHub</a>.<br/>
+		There's a bunch of repositories included in the project:</p>
 
-<p><a href="{{ page.github_project }}/buildroot"><b>Buildroot</b></a><br/>
-Contains various branches that specifically target the currently supported hardware.
-</p>
+		<p><a href="{{ page.github_project }}/webkit"><b>WebKit</b></a><br/>
+		Contains the new WebKit port that's used in WebKit for Wayland, implemented under the three-letter codename 'WPE'.
+		</p>
 
-<p><a href="{{ page.github_project }}/weston"><b>Weston</b></a><br/>
-Fork of the reference Wayland compositor that includes some additional patches that are just temporary work or haven't been upstreamed yet.
-</p>
+		<p><a href="{{ page.github_project }}/buildroot"><b>Buildroot</b></a><br/>
+		Contains various branches that specifically target the currently supported hardware.
+		</p>
 
-<p><a href="{{ page.github_project }}/mesa"><b>Mesa</b></a><br/>
-Fork of the Mesa library, containing various hardware-specific work that hasn't been upstreamed yet.
-</p>
+		<p><a href="{{ page.github_project }}/weston"><b>Weston</b></a><br/>
+		Fork of the reference Wayland compositor that includes some additional patches that are just temporary work or haven't been upstreamed yet.
+		</p>
 
-<p><a href="{{ page.github_project }}/cairo"><b>Cairo</b></a><br/>
-Fork of the Cairo library, containing additional cairo-egl API that hasn't been upstreamed yet.
-</p>
+		<p><a href="{{ page.github_project }}/mesa"><b>Mesa</b></a><br/>
+		Fork of the Mesa library, containing various hardware-specific work that hasn't been upstreamed yet.
+		</p>
 
-<p><a href="{{ page.github_project }}/demos"><b>Demos</b></a><br/>
-A small collection of scripts that launch some basic Web pages that demo the capabilities of WebKit for Wayland.
-</p>
+		<p><a href="{{ page.github_project }}/cairo"><b>Cairo</b></a><br/>
+		Fork of the Cairo library, containing additional cairo-egl API that hasn't been upstreamed yet.
+		</p>
 
-<p><a href="{{ page.github_project }}/linux"><b>linux</b></a><br/>
-Fork of the Linux kernel, containing hardware-specific changes and configs that haven't been upstreamed yet.
-</p>
+		<p><a href="{{ page.github_project }}/demos"><b>Demos</b></a><br/>
+		A small collection of scripts that launch some basic Web pages that demo the capabilities of WebKit for Wayland.
+		</p>
+
+		<p><a href="{{ page.github_project }}/linux"><b>linux</b></a><br/>
+		Fork of the Linux kernel, containing hardware-specific changes and configs that haven't been upstreamed yet.
+		</p>
+
+	</div>
 
 {% include footer.html %}
